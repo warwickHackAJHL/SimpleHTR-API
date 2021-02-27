@@ -2,5 +2,5 @@ import sys
 from main import predictImage
 
 
-print(predictImage("../data/test.png"))
+print(predictImage("../data/test5.png"))
 # main()

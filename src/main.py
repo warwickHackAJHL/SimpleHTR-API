@@ -224,6 +224,6 @@ def predictImage(imageSrc):
         mustRestore=True,
         dump=args.dump,
     )
-    return infer(model, FilePaths.fnInfer)
+    return infer(model, imageSrc)
 if __name__ == "__main__":
     main()
